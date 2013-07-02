@@ -32,6 +32,7 @@ public abstract class BaseSampleActivity extends FragmentActivity {
                 mPager.setCurrentItem(page);
                 return true;
 
+
             case R.id.add_page:
                 if (mAdapter.getCount() < 10) {
                     mAdapter.setCount(mAdapter.getCount() + 1);
